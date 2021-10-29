@@ -15,7 +15,8 @@ let addToZero = (array, sum) => {
           }
           
     
-console.log(addToZero([1,2,3,-2,-1,10,25,19,-19,25,17,21,99,-99,2000,1200,75,18,92],0));
+console.log("two numbers in array adding to O",addToZero([1,2,3,-2,-1,10,25,19,-19,25,17,21,99,-99,2000,1200,75,18,92],0));
+console.log("two numbers in the array adding to 20",addToZero([2,4,6,8,10,12,14,16,18,20],20))
 //Runtime complexity O(n)
 
 //2) Unique Characters
